@@ -102,3 +102,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
+
+// FOOTER YEAR
+const currentDate = new Date();
+const footerYear = document.getElementById('footer-year');
+if (footerYear) {
+  footerYear.textContent = currentDate.getFullYear();
+}

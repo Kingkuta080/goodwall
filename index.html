@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <!-- NAV -->
 <nav class="nav" id="nav">
   <div class="nav__inner">
@@ -235,8 +234,8 @@
     <span class="stag reveal">Resources</span>
     <h2 class="sec-title reveal">For the <em>ambitious</em></h2>
     <div class="blog-grid">
-      <div class="blog-card reveal d1"><div class="blog-thumb">📈<span class="blog-tag">Career Advice</span></div><div class="blog-body"><h3 class="blog-title">10 Skills Every Young Professional Needs in 2025</h3><p class="blog-exc">Discover the essential skills shaping careers right now — and exactly how to build them fast.</p><a href="#" class="blog-read">Read article →</a></div></div>
-      <div class="blog-card reveal d2"><div class="blog-thumb">🤝<span class="blog-tag">Networking</span></div><div class="blog-body"><h3 class="blog-title">Building Your Professional Network: A Beginner's Guide</h3><p class="blog-exc">Learn how to build genuine connections that open doors — without feeling awkward about it.</p><a href="#" class="blog-read">Read article →</a></div></div>
+      <div class="blog-card reveal d1"><div class="blog-thumb">📈<span class="blog-tag">Career Advice</span></div><div class="blog-body"><h3 class="blog-title">10 Skills Every Young Professional Needs in <span>${year}</span></h3><p class="blog-exc">Discover the essential skills shaping careers right now — and exactly how to build them fast.</p><a href="#" class="blog-read">Read article →</a></div></div>
+      <div class="blog-card reveal d2"><div class="blog-thumb">🤝<span class="blog-tag">Networking</span></div><div class="blog-body"><h3 class="blog-title">Building Your Professional Network: A Beginner's Guide <span>${year}</span></h3><p class="blog-exc">Learn how to build genuine connections that open doors — without feeling awkward about it.</p><a href="#" class="blog-read">Read article →</a></div></div>
       <div class="blog-card reveal d3"><div class="blog-thumb">💡<span class="blog-tag">Entrepreneurship</span></div><div class="blog-body"><h3 class="blog-title">From Idea to Startup: Launching Your First Business</h3><p class="blog-exc">A step-by-step guide to turning a bold idea into a real venture — even with no experience.</p><a href="#" class="blog-read">Read article →</a></div></div>
     </div>
   </div>
@@ -303,7 +302,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2025 Goodwall. All rights reserved.</span>
+      <span class="footer-copy">© <span id="footer-year"></span> Goodwall. All rights reserved.</span>
       <div class="footer-legal">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
